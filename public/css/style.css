@@ -1,0 +1,64 @@
+        body {
+         background-image: url('/image/bg1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+        #sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 250px;
+            background-color: #343a40;
+            padding: 20px;
+            color: #fff;
+            z-index: 999;
+        }
+
+        #sidebar .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        #sidebar .close-btn:hover {
+            color: #f8f9fa;
+        }
+        
+        #sidebar .add-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        #sidebar .add-btn:hover {
+            color: #f8f9fa;
+        }
+
+        #sidebar h4 {
+            margin-bottom: 30px;
+        }
+
+        #sidebar .nav-link {
+            color: #adb5bd;
+            transition: color 0.3s;
+        }
+
+        #sidebar .nav-link:hover {
+            color: #fff;
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+            #text-primary {
+        color: #6c757d;
+            }
